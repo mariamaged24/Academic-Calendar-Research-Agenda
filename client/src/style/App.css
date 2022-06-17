@@ -1,0 +1,297 @@
+:root {
+  --header: #464866;
+  --profile: #AAABB8;
+  --logo: #25274D;
+}
+
+.WelcomePageBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/background2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+
+.OuterFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 6em;
+}
+
+.InnerFlex {
+  border: 2px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: var(--header);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 130%;
+  height: 130%;
+  opacity: 0.7;
+}
+
+.TitleName {
+  font-family: "Copperplate", Times, Sans-serif;
+  color: #25274D;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: oblique;
+  gap: 60px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.NormalText {
+  font-family: "Arial", Times, Sans-serif;
+  /* font-size: 20px; */
+  color: black;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--header);
+  height: 7vh;
+}
+
+.Logo {
+  font-family: "Copperplate", Times, Sans-serif;
+  color: var(--logo);
+  font-weight: bold;
+  font-style: oblique;
+  opacity: 0.8;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-right: 4em;
+}
+
+.OuterFlexx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 93vh;
+  padding: 5em;
+}
+
+.OuterSignUp {
+  border: 2px;
+  border-radius: 50px;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: auto;
+  background-color: var(--header);
+  opacity: 0.7;
+}
+
+.OuterSignUpp {
+  border: 2px;
+  border-radius: 50px;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 80%;
+  background-color: var(--header);
+  opacity: 0.7;
+}
+
+.SignUpFlex {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  gap: 2em;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.Titles {
+  font-family: "Arial", Times, Sans-serif;
+  font-size: 30px;
+  color: black;
+  font-style: normal;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.RightButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: center;
+  padding: 10px;
+}
+
+.DynamicInputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.NormalHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  width: 120vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.NormalPage {
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+}
+
+.grid-containerf {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width:10vh;
+  padding:5em
+}
+
+.grid-itemf {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-right:"6em"
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  border-color: var(--profile);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-right:"6em"
+}
+
+.ButtonBasicColor {
+  background-color: var(--profile);
+  color: var(--header);;
+  border-color: var(--header);
+  border-radius: 10px;
+}
+
+.ButtonBasicColor2 {
+  background-color: var(--logo);
+  color: white;
+  border-color: var(--logo);
+  border-radius: 10px;
+}
+
+.questions-container {
+  overflow: hidden !important;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.myContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex: 1 1 0px;
+}
+
+.myDatePicker {   
+  width: 100%;
+  height:5vh;
+  border-color: lightgrey;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.SideSuggestions {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--header);
+  opacity: 0.7;
+  border: 2px;
+  border-radius: 50px;
+  width: 59vh;
+  height: 36vh;
+  padding: 0.35em;
+  margin-top: 10em;
+  justify-content: flex-end;
+  margin-bottom: 30;
+}
+
+.SmallerFlex {
+  border: 2px;
+  border-radius: 50px;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vh;
+  height: 40vh;
+  background-color: var(--header);
+  opacity: 0.7;
+}
+
+.CalendarWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex start;
+  justify-content: flex-start;
+  width: 100vh;
+  height: auto;
+}
+
+.HomeWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex start;
+  justify-content: flex-start;
+  width: 110vh;
+  height: auto;
+}
+
+.ProfileWindow {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.search-continer {
+ height: 100vh;
+ overflow-y: auto;
+}
